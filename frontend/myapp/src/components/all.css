@@ -1,0 +1,210 @@
+/* sighup css */
+
+.bg-card{
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+}
+.new{
+    color: aqua;
+    font-weight: bold;
+}
+
+.bg-card3{
+    font-weight: bold;
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.bg-card2{
+    background-color: rgb(173, 129, 214);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+
+input{
+    width: 40vw;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    width: 40vw;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: aqua;
+}
+
+/* media quary for small devices */
+@media only screen and (max-width: 600px) {
+    .home-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .profile{
+        width: 90vw;
+        height: 25vh;
+        background-color: aquamarine;
+     
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .todo-card{
+        margin: 10px;
+        padding: 10px;
+        font-weight: bold;
+        width: 90vw;
+        border-radius: 10px;
+        background-color: rgb(144, 253, 134);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+    
+    }
+
+}
+
+
+@media only screen and (min-width: 601px) {
+    .profile{
+        width: 20vw;
+        margin: 10px;
+
+    
+
+        background-color: aquamarine;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .todo-card{
+        margin: 10px;
+        
+
+        padding: 25px;
+        font-weight: bold;
+      
+        border-radius: 10px;
+        height: 100vh;
+        background-color: rgb(144, 253, 134);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+    
+    }
+
+
+}
+
+
+
+/* sighup css */
+
+/* profile */
+
+.img{
+    height: 10vh;
+}
+
+
+.p1{
+    width: 20vw;
+}
+.btn{
+    width: 10vw;
+}
+
+/*home*/
+
+.home-card{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*todocard*/
+
+
+
+.card1{
+    background-color: rgb(209, 224, 208);
+    padding: 40px;
+    border-radius: 10px;
+    width: 65vw;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.card2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(164, 255, 158);
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.todo-card3{
+    width: 65vw;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: rgb(138, 255, 127);
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+.inpEle{
+    width: 20vw;
+}
+.btn1{
+    width: 10vw;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.btn3{
+    width: 7vw;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+}

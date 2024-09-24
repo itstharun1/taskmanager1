@@ -10,7 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
     "express": "^4.21.0",
-    "sqlite3": "^5.1.7"
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7",
+    "uuid": "^10.0.0"
   }
 }
