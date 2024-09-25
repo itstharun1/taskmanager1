@@ -57,6 +57,9 @@ app.post('/api/register', (req, res) => {
         res.status(200).send({ auth: true, token });
     });
 });
+app.get('/',(req,res)=>{
+    res.json("hello")
+})
 
 // User login
 app.post('/api/login', (req, res) => {
