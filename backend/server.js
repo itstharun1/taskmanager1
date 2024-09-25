@@ -10,13 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(bodyParser.json());
-app.use(cors(
-    {
-        origin:["https://deploy-mern-1whq.vercel.app"],
-        methods:["POST","PUT","GET","DELETE"],
-        credentials:true
-    }
-));
+app.use(cors());
 
 // Initialize SQLite database
 const db = new sqlite3.Database('./database.db', (err) => {
