@@ -119,10 +119,10 @@ app.get('/api/todos', verifyToken, (req, res) => {
 });
 
 // update todo as mark as completed to strike with css
-app.put('/api/todos/:id', verifyToken, (req, res) => {
+app.put('/api/todos/:id',  (req, res) => {
     const { id } = req.params;
     const { title,status } = req.body;
-    db.run("UPDATE todos SET (title=?,status=?) WHERE id = ?", [title,status, id],(err)=>{
+    db.run("UPDATE todos SET status=? WHERE id = ?", [status, id],(err)=>{
         if (err) return res.status(500).send("There was a problem updating the todo")
             res.status(200).send("Todo updated successfully");
     } )
